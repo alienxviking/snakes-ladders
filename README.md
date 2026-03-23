@@ -1,4 +1,4 @@
-# Snakes & Ladders
+# 🐍 Snakes & Ladders: The Deluxe Edition 🪜
 
 ## Class Diagram
 
@@ -116,27 +116,30 @@ javac -d out src/com/example/snakesladders/*.java
 java -cp out com.example.snakesladders.App
 ```
 
-### Sample Run
+### Sample Run (The New Look)
 ```
-Enter board dimension (n for nxn board): 10
-Enter number of players: 2
-Enter name for Player 1: Alice
-Enter name for Player 2: Bob
-Enter difficulty (easy/hard): easy
+🎲 Enter board dimension (n for nxn board): 10
+👥 Enter number of players: 2
+👤 Enter name for Player 1: Alice
+👤 Enter name for Player 2: Bob
+🔥 Enter difficulty (easy/hard): easy
 
-=== Snakes & Ladders ===
+╔═══════════════════════════════════════╗
+║           Snakes & Ladders            ║
+╚═══════════════════════════════════════╝
 Board size: 100 cells
-Snakes:  [Snake[87 -> 84], Snake[45 -> 42], ...]
-Ladders: [Ladder[3 -> 15], Ladder[22 -> 34], ...]
-Players: [Alice (pos=0), Bob (pos=0)]
+Snakes:     [Snake[87 -> 84], Snake[45 -> 42], ...]
+Ladders:    [Ladder[3 -> 15], Ladder[22 -> 34], ...]
+Players:    [Alice (pos=0), Bob (pos=0)]
 
 Alice rolled 4 | 0 -> 4
 Bob rolled 6 | 0 -> 6
-Alice rolled 3 | 4 -> 7 Ladder! -> 19
+Alice rolled 3 | 4 -> 7 LADDER! 🪜 -> 19
 ...
-  Alice wins! Rank: #1
+  Alice HAS REACHED THE END! Rank: #1
 
-=== Final Rankings ===
-#1 Alice
-#2 Bob
+━━━━━━━━━━━ FINAL RANKINGS ━━━━━━━━━━━
+#1 🥇 Alice
+#2 🥈 Bob
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
